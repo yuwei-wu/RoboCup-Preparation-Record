@@ -5,8 +5,8 @@
 
 ### 1. [Photometric image formation](https://cseweb.ucsd.edu/classes/sp15/cse152-a/lec6.pdf)
 
-### 2.color  
-HSV (Hue, Saturation, and Value) / RGB (Red, Green, and Blue)        
+### 2. Color
+[HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) (Hue, Saturation, and Value) / [RGB](https://en.wikipedia.org/wiki/RGB_color_model) (Red, Green, and Blue)        
 [WPI HSV](https://docs.wpilib.org/en/latest/docs/software/vision-processing/introduction/identifying-and-processing-the-targets.html#what-is-hsl-hsv)
 
 ### 3. object distance
@@ -33,8 +33,9 @@ calibration / setting /  Read and Process Video
 
 ### 1. Color panel 
 
- segments the highest-resolution color images  (Baysian Method/Unimodal Gaussian/ Gaussian mixture model)
- forms connected regions 
+ segments the highest-resolution color images   
+ build and train the classifier (Baysian Method/Unimodal Gaussian/ Gaussian mixture model)     
+ forms connected regions     
  recognizes objects from the statistics of the colored regions   
 
 [color segmentation](https://www.cs.cmu.edu/~dst/Tekkotsu/Tutorial/colorsegment.shtml)
