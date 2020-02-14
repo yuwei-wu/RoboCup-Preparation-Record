@@ -19,15 +19,15 @@ calibration / setting /  Read and Process Video
 
 ## Part Two: Deal with the images
 
-### Image preprocessing
+### 1.Image preprocessing
 
-### Feature detection and matching
+### 2.Feature detection and matching
 
-### Segmentation
+### 3.Segmentation
 
-### Object Tracking 
+### 4.Object Tracking 
 
-### [Edge Detection](https://alliance.seas.upenn.edu/~cis581/Lectures/Fall2019/cis581-2019-Convolution3-py.pdf)
+### 5.[Edge Detection](https://alliance.seas.upenn.edu/~cis581/Lectures/Fall2019/cis581-2019-Convolution3-py.pdf)
 
 ## Part Three: First Robots
 
