@@ -6,7 +6,9 @@
 ### 1. [Photometric image formation](https://cseweb.ucsd.edu/classes/sp15/cse152-a/lec6.pdf)
 
 ### 2. Color
-[HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) (Hue, Saturation, and Value) / [RGB](https://en.wikipedia.org/wiki/RGB_color_model) (Red, Green, and Blue)   
+[HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) (Hue, Saturation, and Value)
+[RGB](https://en.wikipedia.org/wiki/RGB_color_model) (Red, Green, and Blue)  
+[YUV](https://en.wikipedia.org/wiki/YUV) (luma(Y′), two chrominance components U (blue projection) and V (red projection) respectively.)
 
 RBG is good from the hardware standpoint of view, since it is how the pixels are captured and displayed (Bayer filter is one good example) but does not capture the way humans perceive the colors.
 
