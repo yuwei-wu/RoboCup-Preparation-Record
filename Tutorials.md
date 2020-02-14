@@ -1,41 +1,54 @@
 
+## [Computer Vision: Algorithms and Applications](http://szeliski.org/Book/)
 
-# Image formation
+# Part One: Image formation
 
+### 1. [Photometric image formation](https://cseweb.ucsd.edu/classes/sp15/cse152-a/lec6.pdf)
 
-###  color   
+### 2.color  
 HSV (Hue, Saturation, and Value) / RGB (Red, Green, and Blue)        
 [WPI HSV](https://docs.wpilib.org/en/latest/docs/software/vision-processing/introduction/identifying-and-processing-the-targets.html#what-is-hsl-hsv)
 
-### distance   
+### 3. object distance
 [WPI Dis](https://docs.wpilib.org/en/latest/docs/software/vision-processing/introduction/identifying-and-processing-the-targets.html#distance)
 
 
-### digit camera (Lifecam)
+### 4. your digit camera (Lifecam)
 calibration / setting /  Read and Process Video
 
 
+# Part Two: Steps to deal with the images
 
-# object detection 
+### Feature detection and matching
 
-## 1. color panel 
+### Segmentation
+
+
+
+
+
+
+
+# Part Three: object detection 
+
+## 1. Color panel 
 
 [color segmentation](https://www.cs.cmu.edu/~dst/Tekkotsu/Tutorial/colorsegment.shtml)
 
-## 2.  Target recognition and Lighting (shooting)
+## 2. Target recognition and Lighting (shooting)
 
 #### [RoboRealm tutorials](http://www.roborealm.com/tutorials.php)
 
 #### SmartDashboard Camera Extension (programmed in Java, works with any robot language)
 
-#### GRIP
+#### [GRIP](https://docs.wpilib.org/en/latest/docs/software/vision-processing/grip/introduction-to-grip.html)
+
+[Generating Code from GRIP](https://docs.wpilib.org/en/latest/docs/software/vision-processing/grip/generating-code-from-grip.html) 
+
 
 ## 3. 
 
 
 
-# Camera Server
-
-
-# [GRIP](https://docs.wpilib.org/en/latest/docs/software/vision-processing/grip/introduction-to-grip.html)
+## [Camera Server](https://first.wpi.edu/FRC/roborio/beta/docs/java/edu/wpi/first/wpilibj/CameraServer.html)
 
