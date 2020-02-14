@@ -6,7 +6,10 @@
 ### 1. [Photometric image formation](https://cseweb.ucsd.edu/classes/sp15/cse152-a/lec6.pdf)
 
 ### 2. Color
-[HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) (Hue, Saturation, and Value) / [RGB](https://en.wikipedia.org/wiki/RGB_color_model) (Red, Green, and Blue)        
+[HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) (Hue, Saturation, and Value) / [RGB](https://en.wikipedia.org/wiki/RGB_color_model) (Red, Green, and Blue)   
+
+RBG is good from the hardware standpoint of view, since it is how the pixels are captured and displayed (Bayer filter is one good example) but does not capture the way humans perceive the colors.
+
 [WPI HSV](https://docs.wpilib.org/en/latest/docs/software/vision-processing/introduction/identifying-and-processing-the-targets.html#what-is-hsl-hsv)
 
 ### 3. object distance
