@@ -1,14 +1,10 @@
 
-
-# 1. Sensor Data Error
-
 usage:    
 
 #### Player/Vision/detectBallv5.lua    
 ```
     local headAngle = Body.get_head_position(); --{yaw, pitch}
 ```
-
 
 #### Player/Vision/Vision_thread.lua    
 ```
@@ -18,16 +14,14 @@ usage:
 
 ```
 
+## 2. Pose estimation Error
+bad performance (can we print the pose without vision?)
 
 
 
-# 2. Pose estimation Error
-bad performance
+## 3. Vision Detection Error
+it's easy to see in our monitor
 
+## 4. Feature transformation/ projection Error
 
-
-
-# 3. Vision Detection Error
-
-
-# 4. Feature transformation/ projection Error
+can see in the monitor but need more testing
