@@ -5,7 +5,7 @@
 Actually in the paper, the method of RANSAC Line Fitting works well (I've read the HTWK and B-human method and our are the combination). 
 It should works well, but why not? 
 
-Actually from b-human report, they still use this method in 2019. I think it cannot be the issue.
+Actually from b-human report, they use RANSAC in 2019. I think it cannot be the issue.
 
 ### 2. The boundary landmark
 I notice the pratical filter process and believed ths part cannot be the issue.
