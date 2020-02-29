@@ -28,8 +28,9 @@ We can see the chapter 4.
 
 ## 3. Previous Work
 
+### use cameria intrinsics 
 
-
+### undistort
 
 
 ## 4. New implementation
