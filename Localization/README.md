@@ -7,12 +7,13 @@ because our pose estimation is based on these features,
 it will really effect in the competition. Also there are penalties if robots walk out the line boundary, 
 we need to improve our projection and pose corrections. 
 
-### 1.1 Mirrored Pose Estimates
+### 1.1 Mirrored Pose Estimates (still a possible issue)
+The field is symmetrical, it is very important to make sure the robot does not get too much error in the yaw direction, otherwise it can sometimes get flipped. 
 
 
 ### 1.2 Line and Circle Detection 
 
-We need to convert the picture to HSV or HSL, considering that using HSL is more accurate for white lines.
+considering that using HSL is more accurate for white lines.
 
 ### 1.3 
 
