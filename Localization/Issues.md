@@ -3,7 +3,7 @@
 ### 1. Does the camera calibrated ?
 
 Actually in the paper, the method of RANSAC Line Fitting works well (I've read the HTWK and B-human method and our are the combination). 
-It should works well, but why not?   
+It should works well, but why not? 
 
 Actually from b-human report, they still use this method in 2019. I think it cannot be the issue.
 
@@ -23,3 +23,18 @@ maybe it's ok in the less complex robocup situation.  (HSL works better for line
 
 The issue is that the network works very well for line detection (LineNet) may not work well for ball detection. 
 (https://arxiv.org/pdf/2002.06604v2.pdf is pretty good) 
+
+
+
+## 2.28.2020
+
+### Initialization of the particles
+https://github.com/UPenn-RoboCup/UPennalizers/wiki/Localization
+
+If they are not initialized well, the filter will not work. 
+There are functions designed to handle every different initialization that the robots will encounter - starting from the sidelines, manual placement, returning from penalty, etc.
+
+
+### cannot find the field boundary detection
+http://www.ais.uni-bonn.de/robocup.de/2016/papers/RoboCup_Symposium_2016_Qian.pdf
+
